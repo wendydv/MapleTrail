@@ -1,0 +1,234 @@
+body {
+  overflow-x: hidden;
+}
+
+.navbar {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
+}
+
+.navbar .nav-link,
+.languaje-options {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: transparent !important;
+}
+
+.nav-item .dropdown-menu {
+  font-size: 14px !important;
+  text-transform: uppercase;
+}
+
+.btn-personalize {
+  border-radius: 100px;
+}
+
+.dropdown-item {
+  font-size: 14px !important;
+  text-transform: uppercase;
+}
+
+.nav-link:hover,
+.dropdown-item:hover,
+.btn-personalize:hover {
+  color: #17a2b8 !important;
+  text-decoration: none !important;
+  background-color: #f8f9fa !important;
+}
+.btn-personalize:hover {
+  background-color: transparent !important;
+}
+
+.carousel-item {
+  min-height: 90vh !important;
+}
+
+.carousel-image-1 {
+  background: url('../img/img2.jpg');
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url('../img/img1.jpg');
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url('../img/img3.jpg');
+  background-size: cover;
+}
+
+.carousel-caption {
+  top: 40% !important;
+}
+
+#home-heading {
+  position: relative;
+  min-height: 300px;
+  background: url('../img/img4.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+#testimonials-heading {
+  position: relative;
+  min-height: 300px;
+  background: url('../img/img5.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+#about-header {
+  background: url('../img/img8.jpg');
+}
+#blog-header {
+  background: url('../img/img8.jpg');
+}
+#contact-header {
+  background: url('../img/img4.jpg');
+}
+#services-header {
+  background: url('../img/img4.jpg');
+}
+#study-header {
+  background: url('../img/claudia-wolff-MiJTU6lqksg-unsplash.jpg');
+}
+#canada-header {
+  background: url('../img/AdobeStock_93600361_1.jpg');
+}
+
+#about-header,
+#blog-header,
+#contact-header,
+#services-header,
+#study-header,
+#canada-header {
+  position: relative;
+  height: 200px;
+  background-position: 0 -60px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#faq .card {
+  border: #444;
+}
+
+#faq a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#faq .card-body,
+#faq .card-header {
+  background: #333;
+}
+
+#team .card:hover,
+#about-team .card:hover {
+  background: #17a2b8;
+  color: #fff;
+}
+
+#team .fab,
+#about-team .fab {
+  color: #17a2b8;
+}
+#team .card:hover i,
+#about-team .card:hover i {
+  color: #fff;
+}
+
+#blog .card {
+  cursor: pointer;
+}
+
+#blog .card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transform: scale(1.02, 1.02);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+#contact-form {
+  margin-top: 0%;
+  margin-right: 0%;
+}
+#contact-form.card {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
+}
+
+#footer-info li {
+  font-size: 14px;
+  padding: 5px;
+}
+
+#footer-info a:hover {
+  color: #17a2b8 !important;
+  text-decoration: none !important;
+}
+
+#footer-info .fab {
+  color: #17a2b8;
+}
+#footer-info .fab a:hover {
+  color: #6c757d;
+}
+
+#main-footer {
+  background: #000;
+  color: #fff;
+}
+
+#main-footer a {
+  color: #6c757d;
+}
+
+#main-footer p {
+  font-size: 14px !important;
+}
+
+/* Animations */
+.fade-in {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+
+.from-left {
+  transform: translateX(-50%);
+}
+.from-right {
+  transform: translateX(50%);
+}
+.from-left,
+.from-right {
+  transition: opacity 250ms ease-in, transform 400ms ease-in;
+  opacity: 0;
+}
+.from-left.appear,
+.from-right.appear {
+  transform: translateX(0);
+  opacity: 1;
+}
