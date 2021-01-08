@@ -104,6 +104,11 @@ body {
 #canada-header {
   background: url('../img/AdobeStock_93600361_1.jpg');
 }
+#contact {
+  background: url('../img/contact_backgorund.jpg');
+  background-size: cover;
+  min-height: 85vh;
+}
 
 #about-header,
 #blog-header,
@@ -127,6 +132,23 @@ body {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.7);
+}
+
+#home-icons .card {
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
+  width: 237px;
+  height: 220px;
+}
+
+#home-icons img {
+  margin-top: -50px;
+}
+
+#team {
+  background: url('../img/background_blue.jpg');
+  background-size: cover;
 }
 
 #faq .card {
@@ -168,11 +190,7 @@ body {
   transition: box-shadow 0.3s ease-in-out;
 }
 
-#contact-form {
-  margin-top: 0%;
-  margin-right: 0%;
-}
-#contact-form.card {
+.contact-form .card {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
 }
 

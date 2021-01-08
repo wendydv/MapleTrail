@@ -17,10 +17,10 @@
 
 <!--#################### CONTACT SECTION #################-->
 <section id="contact" class="py-5">
-  <div class="container">
+  <div class="container mt-5">
     <div class="row">
-      <div class="col-md-4">
-        <div class="card p-4">
+      <div class="col-md-5 ml-auto">
+        <div class="card border-0 p-4 bg-transparent">
           <div class="card-body">
             <h4>Get in touch!</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, error!</p>
@@ -34,7 +34,7 @@
         </div>
       </div>
 
-      <div class="col-md-8">
+      <div class="col-md-6 mr-auto contact-form">
         <div class="card p-4">
           <div class="card-body py-5">
             <h4 class="text-center">Please, fill out this form to contact us!</h4>

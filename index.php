@@ -79,57 +79,89 @@
         </div>
 
         <div class="row py-3">
-            <div class="col-md-4 mb-4 text-center fade-in">
-                <img src="img/undraw_Graduation_ktn0.svg" class="w-25" alt="">
-                <h3 class="mt-2">Study Permit</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-                    voluptatem!
-                </p>
+            <div class="col-md-3 mb-4 text-center fade-in">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img/undraw_Airport_re_oqk.png" alt="Men siting in an airport" class="img-fluid w-50 mb-3" />
+                        <h3 class="">Visitor Visa</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+                            voluptatem!</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4 mb-4 text-center fade-in">
-                <img src="img/undraw_Airport_re_oqk.png" class="w-25" alt="">
-                <h3 class="mt-2">Visitor Visa</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-                    voluptatem!
-                </p>
+            <div class="col-md-3 mb-4 text-center fade-in">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img/undraw_Graduation_ktn0.svg" alt="" class="img-fluid w-50 mb-3">
+                        <h3>Study Permit</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+                            voluptatem!</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4 mb-4 text-center fade-in">
-                <img src="img/undraw_aircraft_fbvl.svg" class="w-25" alt="">
-                <h3 class="mt-2">Express Entry</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-                    voluptatem!
-                </p>
+            <div class="col-md-3 mb-4 text-center fade-in">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img/undraw_QA_engineers_dg5p.svg" alt="" class="img-fluid w-50 mb-3">
+                        <h3>Work Permit</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+                            voluptatem!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4 text-center fade-in">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img/undraw_add_file2_gvbb.svg" alt="" class="img-fluid w-25 mb-3">
+                        <h3>Status Extention</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+                            voluptatem!</p>
+                    </div>
+                </div>
             </div>
         </div>
 
         <div class="service-row show-on-scroll fade-in">
             <div class="row py-3">
-                <div class="col-md-4 mb-4 text-center ">
-                    <img src="img/undraw_Map_light_3hjy.svg" class="w-25" alt="">
-                    <h3 class="mt-2">Provincial Nomination</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-                        voluptatem!
-                    </p>
+                <div class="col-md-3 mb-4 text-center fade-in">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/undraw_aircraft_fbvl.svg" alt="" class="img-fluid w-50 mb-3">
+                            <h3>Express Entry</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+                                voluptatem!</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4 mb-4 text-center fade-in">
-                    <img src="img/undraw_add_file2_gvbb.svg" class="w-25" alt="">
-                    <h3 class="mt-2">Status Extention</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-                        voluptatem!
-                    </p>
+                <div class="col-md-3 mb-4 text-center fade-in">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/undraw_Map_light_3hjy.svg" alt="" class="img-fluid w-25 mb-3">
+                            <h3>Provincial Nomination</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+                                voluptatem!</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4 mb-4 text-center fade-in">
-                    <img src="img/undraw_QA_engineers_dg5p.svg" class="w-25" alt="">
-                    <h3 class="mt-2">Work Permit</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-                        voluptatem!
-                    </p>
+                <div class="col-md-3 mb-4 text-center fade-in">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/undraw_happy_women_day_fbjt.svg" alt="" class="img-fluid w-50 mb-3">
+                            <h3>Family Sponsorship</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+                                voluptatem!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4 text-center fade-in">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/undraw_add_file2_gvbb.svg" alt="" class="img-fluid w-25 mb-3">
+                            <h3>Citizenship</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+                                voluptatem!</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -168,7 +200,8 @@
                 <a href="about.php" class="btn btn-info btn-large mt-3 btn-personalize">Learn More</a>
             </div>
             <div class="col-md-5 ml-auto pt-3 slide-in from-right">
-                <iframe src="https://www.youtube.com/embed/HnwsG9a5riA" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
+                <!-- <iframe src="https://www.youtube.com/embed/HnwsG9a5riA" frameborder="0" height="350" width="100%" allowfullscreen></iframe> -->
+                <img src="img/undraw_business_deal_cpi9.svg" alt="" class="img-fluid mt-5 rounded-circle d-none d-md-block about-img">
             </div>
         </div>
     </div>

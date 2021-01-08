@@ -32,8 +32,6 @@
 					doloremque temporibus, quasi tempora blanditiis modi quo non nesciunt ducimus voluptas.</p>
 			</div>
 			<div class="col-md-6">
-				<!-- <img src="https://source.unsplash.com/random/700x700/?technology" alt=""
-						class="img-fluid rounded-circle d-none d-md-block about-img"> -->
 				<img src="img/undraw_interview_rmcf.svg" alt="" class="img-fluid mt-5 rounded-circle d-none d-md-block about-img">
 			</div>
 		</div>
@@ -65,73 +63,30 @@
 		<div class="row py-3 fade-in">
 			<h1 class="pb-3">Who We Are</h1>
 		</div>
-		<div class="row">
-			<div class="col-md-6 fade-in">
-				<div class="card">
-					<div class="card-body">
-						<div class="d-flex flex-row justify-content-start">
-							<img src="img/eduardo.jpg" alt="Eduardo photo" class="img-fluid rounded-circle w-50 mb-3" />
-							<div class="content pl-3">
-								<h3>Eduardo Balmaseda</h3>
-								<h5 class="text-muted">Some Title</h5>
-								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Recusandae eveniet porro culpa provident perspiciatis sint.
-								</p>
-								<div class="d-flex justify-content-center">
-									<p class="p-4">
-										<a href="http://linkedin.com">
-											<i class="fab fa-linkedin"></i>
-										</a>
-									</p>
-									<p class="p-4">
-										<a href="http://facebook.com">
-											<i class="fab fa-facebook"></i>
-										</a>
-									</p>
-									<p class="p-4">
-										<a href="http://twitter.com">
-											<i class="fab fa-twitter"></i>
-										</a>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+		<div class="row justify-content-center">
+			<div class="col-md-5 fade-in">
+				<img src="img/eduardo.jpg" alt="Eduardo photo" class="img-fluid rounded-circle">
 			</div>
-			<div class="col-md-6 fade-in">
-				<div class="card">
-					<div class="card-body">
-						<div class="d-flex flex-row justify-content-start">
-							<img src="img/wendy-diaz-valdes-photo.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3" />
-							<div class="content pl-3">
-								<h3>Wendy Diaz Valdes</h3>
-								<h5 class="text-muted">Some Title</h5>
-								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Recusandae eveniet porro culpa provident perspiciatis sint.
-								</p>
-								<div class="d-flex justify-content-center">
-									<p class="p-4">
-										<a href="http://linkedin.com">
-											<i class="fab fa-linkedin"></i>
-										</a>
-									</p>
-									<p class="p-4">
-										<a href="http://facebook.com">
-											<i class="fab fa-facebook"></i>
-										</a>
-									</p>
-									<p class="p-4">
-										<a href="http://twitter.com">
-											<i class="fab fa-twitter"></i>
-										</a>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
+			<div class="col-md-6 fade-in ml-auto text-left">
+				<h3>Eduardo Balmaseda Prieto</h3>
+				<h5 class="text-muted">Regulated Canadian Immigration Consultant</h5>
+				<p>Maple Trail is currently formed by Eduardo Balmaseda Prieto who is duly registered as a Regulated Canadian Immigration Consultant (RCIC) and is also a member in good standing of CAPIC. Eduardo immigrated to Canada as a self-guided FSWC applicant under the Express Entry in 2018. Besides his Certificate in Immigration: Laws, Policies and Procedures at UBC, Eduardo is a Cuban accredited lawyer and obtained his Bachelor’s at Universidad de La Habana and a LLM in Maritime Law from the University of Southampton (UK). He worked as legal practitioner in Cuba for four years before moving to Canada and starting a new life. He is passionate about his home-country and loves playing football (soccer).</p>
+				<div class="d-flex">
+					<p class="p-4">
+						<a href="http://linkedin.com">
+							<i class="fab fa-linkedin"></i>
+						</a>
+					</p>
+					<p class="p-4">
+						<a href="http://facebook.com">
+							<i class="fab fa-facebook"></i>
+						</a>
+					</p>
+					<p class="p-4">
+						<a href="http://twitter.com">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</p>
 				</div>
 			</div>
 		</div>
