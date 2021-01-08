@@ -5,11 +5,11 @@
                <div class="col-md-4">
                    <h6>Maple Trail Immigration Consulting</h6>
                    <div class="pb-1 text-secondary">
-                       <p class="pt-2">Our experienced team of legal experts and consultants are here to help you. With
-                           our passion, in-depth knowledge of the system and amazing success stories, we give you
-                           nothing but the best service. For further information about immigration, please contact our
-                           office.</p>
-                       <img src="img/ICCRC.png" alt="iccrc logo" height="80" width="80">
+                       <p class="pt-2">Our experienced team of legal experts and consultants are here to help you. With our passion, in-depth knowledge of the system and amazing success stories, we give you nothing but the best service. For further information about immigration, please contact us.</p>
+                       <div class="d-flex flex-row justify-content-start intitution-logo pt-3">
+                           <a href="https://iccrc-crcic.ca/find-a-professional/"><img src="img/ICCRC.png" alt="iccrc logo" height="80" width="80"></a>
+                           <a href="https://www.capic.ca/"><img src="/img/capic_logo.jpg" class="ml-4" alt="capic logo" height="80" width="80"></a>
+                       </div>
                    </div>
 
                </div>
@@ -80,10 +80,27 @@
                            <div class="input-group">
                                <input type="text" class="form-control form-control-sm" placeholder="Enter your email">
                                <div class="input-group-btn">
-                                   <button class="btn btn-sm btn-info" type="submit">Subscribe</button>
+                                   <button class="btn btn-sm btn-info" type="submit" data-toggle="modal" data-target="#submitionModal">Subscribe</button>
                                </div>
                            </div>
                        </form>
+                       <!-- MODAL -->
+                       <div class="modal" id="submitionModal">
+                           <div class="modal-dialog">
+                               <div class="modal-content">
+                                   <div class="modal-header">
+                                       <h5 class="modal-title">Modal Title</h5>
+                                       <button class="close" data-dismiss="modal">&times;</button>
+                                   </div>
+                                   <div class="modal-body">
+                                       <p>Thank you for singing in with us. We will keep you updated with the lastest news!</p>
+                                   </div>
+                                   <div class="modal-footer">
+                                       <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
                    </div>
                </div>
 

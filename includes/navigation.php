@@ -16,9 +16,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a href="index.php" class="nav-link">Home</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a href="about.php" class="nav-link">About</a>
                 </li>
@@ -60,9 +60,7 @@
 
                 <span class="border-left border-secondary ml-2 pl-2"></span>
 
-                <div class="language ml-auto mt-1">
-                    <!-- <span class="en"><img src="/img/uk_flag.png" alt="UK Flag"></span>
-                    <span class="es"><img src="/img/spain_flag.png" alt="Spanish Flag"></span> -->
+                <div class="language mt-1">
                     <form method="get" class="navbar-form navbar-right" id="language-form" action="">
                         <div class="form-group">
 
