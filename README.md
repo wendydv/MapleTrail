@@ -1,2 +1,2 @@
-# MapleTrail
-Maple Trail Immigration Consulting Website (project in developing)
+# EBD Immigration Consultin
+EBD Immigration Consulting Website (project in developing)
